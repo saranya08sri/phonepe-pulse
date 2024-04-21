@@ -1148,7 +1148,7 @@ elif select=="DATA EXPLORATION":
             top_user_plot_2(Top_user_Y,states)
             
 # chart visualization part
-
+# questions and visualisation part using streamlit part
 elif select== "CHART VISUALIZATION":
     questions = st.selectbox("Select the Questions",["1.Transaction Amount and Count of Aggregated Insurance",
                                                     "2. Transaction Amount and Count of Map Insurance",
